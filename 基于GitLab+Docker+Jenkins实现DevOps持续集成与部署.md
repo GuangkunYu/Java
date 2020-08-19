@@ -46,7 +46,7 @@ docker run -d -p 5000:5000 registry
 # 配置私有仓库地址
 vim /etc/docker/daemon.json
 {
-	"insecure-registries":["192.168.200.133:5000"]
+	"insecure-registries":["192.168.4.143:5000"]
 }
 
 sudo systemctl daemon-reload
@@ -55,13 +55,22 @@ sudo systemctl restart docker
 # 启动本地仓库容器
 docker start 容器ID
 
+
+$ docker ps // 查看所有正在运行容器
+$ docker stop containerId // containerId 是容器的ID
+
+$ docker ps -a // 查看所有容器
+$ docker ps -a -q // 查看所有容器ID
+
+$ docker stop $(docker ps -a -q) //  stop停止所有容器
+$ docker  rm $(docker ps -a -q) //   remove删除所有容器
 ```
 
 
 
 ### 1.4 访问私有仓库
 
-[http://192.168.200.133:5000/v2/__catalog](http://192.168.200.133:5000/v2/__catalog)
+[http://192.168.4.143:5000/v2/_catalog](http://192.168.200.113:5000/v2/__catalog)
 
 如果访问不到，关闭防火墙
 
@@ -122,14 +131,14 @@ cd /home/gitlab/etc
 vim gitlab.rb
 
 # 配置http协议所使用的访问地址，不加端口号默认为80
-external_url 'http://192.168.200.133'
+external_url 'http://192.168.4.153'
 # 配置gitlab.yml
 cd /home/gitlab/data/gitlab-rails/etc
 vim gitlab.yml
 
 gitlab:
 	## web server settings(note:host is the FQON,do not include http://)
-	host:192.168.200.133
+	host:192.168.4.143
 	port:8888
 	https:false
 	
@@ -141,7 +150,7 @@ gitlab:
 
 gitlab默认管理用户是root
 
-登陆：[http://192.168.200.133:8888](http://192.168.200.133:8888) 登陆修改root的密码
+登陆：[http://192.168.4.153:8888](http://192.168.4.153:8888) 登陆修改root的密码
 
 
 
@@ -182,7 +191,7 @@ git version
 
 ### 4.1 使用idea从GitLab检出空项目
 
-项目地址：[http://192.168.200.133:8888/root/http-demo.git](http://192.168.200.133:8888/root/http-demo.git)
+项目地址：[http://192.168.4.143:8888/root/http-demo.git](http://192.168.4.143:8888/root/http-demo.git)
 
 
 
@@ -202,7 +211,7 @@ target/
 *.iml
 ```
 
-
+提交commit项目到本地
 
 
 
@@ -230,12 +239,12 @@ target/
 - 使用maven打包并运行访问微服务工程
 
 ```java
-java -jar http-demo-1.0-SNAPSHOT.jar
+java -jar gitlab-demo-1.0-SNAPSHOT.jar
 ```
 
 
 
-### 5.2 创建Docker镜像
+### 5.2 创建Docker**<u>镜像</u>**
 
 在linux上新建一个目录，将上一步的jar包拷贝到Linux服务器，准备创建镜像
 
@@ -247,12 +256,12 @@ mkdir icoding
 测试jar包是否可以运行，执行：java -jar
 
 ```shell
-java -jar http-demo-1.0-SNAPSHOT.jar
+java -jar springboot-demo1-1.0-SNAPSHOT.jar
 ```
 
-访问：[http://192.168.200.133:10000/user/1](http://192.168.200.133:10000/user/1)
+访问：[http://192.168.4.143:10000/user/1](http://192.168.4.143:10000/user/1)
 
-在http-demo-1.0-SNAPSHOT.jar所在文件夹位置编写Dockerfile文件
+在gitlab-demo-1.0-SNAPSHOT.jar所在文件夹位置编写Dockerfile文件
 
 ```shell
 vim Dockerfile
@@ -262,7 +271,7 @@ FROM java:8
 # 其效果是在主机 /var/lib/docker 目录下创建了一个临时文件，并链接到容器的/tmp
 VOLUME /tmp
 # 将jar包添加到容器中并更名为app.jar
-ADD http-demo-1.0-SNAPSHOT.jar.app.jar
+ADD springboot-demo1-1.0-SNAPSHOT.jar app.jar
 # 运行jar包
 RUN bash -c 'touch /app.jar'
 ENTRYPOINT ["java","-Djava.security.egd=file:/dev/./urandom","-jar","/app.jar"]
@@ -271,7 +280,7 @@ ENTRYPOINT ["java","-Djava.security.egd=file:/dev/./urandom","-jar","/app.jar"]
 在Dockerfile文件所在目录创建镜像
 
 ```shell
-docker build -t http-demo:1.0-SNAPSHOT
+docker build -t springboot-demo1:1.0-SNAPSHOT . 
 ```
 
 查看镜像
@@ -282,12 +291,12 @@ docker images
 
 
 
-### 5.3 创建启动容器
+### 5.3 创建启动***<u>容器</u>***
 
-基于http-demo:1.0-SNAPSHOT镜像创建容器，容器名称为http-demo
+基于gitlab-demo:1.0-SNAPSHOT镜像创建容器，容器名称为http-demo
 
 ```SHELL
-docker run -d -p 10000:10000 http-demo:1.0-SNAPSHOT
+docker run -d -p 10000:10000 springboot-demo1:1.0-SNAPSHOT
 ```
 
 容器创建成功，可以通过docker ps -a命令查看
@@ -296,7 +305,7 @@ docker run -d -p 10000:10000 http-demo:1.0-SNAPSHOT
 
 ### 5.4 访问页面
 
-[http://192.168.200.133:10000/user/1](http://192.168.200.133:10000/user/1)
+[http://192.168.4.143:10000/user/1](http://192.168.4.143:10000/user/1)
 
 
 
@@ -306,7 +315,7 @@ docker run -d -p 10000:10000 http-demo:1.0-SNAPSHOT
 
 
 
-### 5.6 使用maven构建镜像
+### 5.6 使用maven构建*镜像*
 
 上边构建的过程是通过手工一步一步完成，maven提供docker-maven-plugin插件课完成从打包到镜像建容器等过程
 
@@ -316,7 +325,7 @@ docker run -d -p 10000:10000 http-demo:1.0-SNAPSHOT
 
 ```XML
 <?xml version="1.0" encoding="UTF-8"?> 
-<project xmlns="http://maven.apache.org/POM/4.00"
+<project xmlns="http://maven.apache.org/POM/4.0.0"
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
@@ -386,7 +395,7 @@ docker run -d -p 10000:10000 http-demo:1.0-SNAPSHOT
             </plugin>
         </plugins>
     </build>
-<project>
+</project>
 ```
 
 
@@ -402,7 +411,8 @@ docker run -d -p 10000:10000 http-demo:1.0-SNAPSHOT
 #### 5.6.4 lclone最新项目
 
 ```sehll
-git clone http://192.168.200.133:8888/root/http-demo.git
+git clone http://192.168.4.143:8888/xiaohuaidan/springboot-demo1.git
+
 ```
 
 
@@ -411,20 +421,20 @@ git clone http://192.168.200.133:8888/root/http-demo.git
 
 ```shell
 # 进入工程目录
-cd http-demo
+cd springboot-demo1
 
 # 打包构建镜像
-mvn -f pom_docker.xml clean package -DskipTests docker:build
+mvn -f pom.xml clean package -DskipTests docker:build
 ```
 
 
 
 #### 5.6.6 创建自动容器
 
-基于http-demo:1.0-SNAPSHOT镜像创建容器，容器名称为http-demo
+基于gitlab-demo:1.0-SNAPSHOT镜像创建容器，容器名称为http-demo
 
 ```shell
-docker run -d -p 10000:10000 http-demo:1.0-SNAPSHOT
+docker run -d -p 10000:10000 springboot-demo1:1.0-SNAPSHOT .
 ```
 
 容器创建成功，可通过docker ps -a命令查看
@@ -433,7 +443,7 @@ docker run -d -p 10000:10000 http-demo:1.0-SNAPSHOT
 
 #### 5.6.7 访问页面
 
-[http://192.168.200.133:10000/user/1](http://192.168.200.133:10000/user/1)
+[http://192.168.4.143:10000/user/1](http://192.168.200.133:10000/user/1)
 
 
 
@@ -453,19 +463,19 @@ docker search jenkins
 docker pull jenkins/jenkins:lts
 
 # 创建容器
-docker run --name=jenkins\
-	-u root \
-	--rm \
-	-d \
-	-p 8080:8080 \
-	-p 50000:50000 \
-	-v /var/run/docker.sock:/var/run/docker.sock \
-	-v /usr/bin/docker:/usr/bin/docker \
-	-v /usr/lib/jvm/java-1.8.0-openjdk-1.8.0.242.b08-0.el7_7.x86_64:/usr/java/jdk1.8.0_181 \
-	-v /usr/local/maven3:/usr/local/maven \
-	-v /usr/local/maven_repository:/usr/local/maven_repository \
-	-v /home/jenkins-data:/var/jenkins_home \ 
-	jenkins/jenkins:lts
+docker run --name=jenkins \
+-u root \
+--rm \
+-d \
+-p 8080:8080 \
+-p 50000:50000 \
+-v /var/run/docker.sock:/var/run/docker.sock \
+-v /usr/bin/docker:/usr/bin/docker \
+-v /usr/lib/jvm/java-1.8.0-openjdk-1.8.0.262.b10-0.el7_8.x86_64:/usr/java/jdk1.8.0_181 \
+-v /usr/local/maven3:/usr/local/maven \
+-v /usr/local/maven_repository:/usr/local/maven_repository \
+-v /home/jenkins-data:/var/jenkins_home \
+jenkins/jenkins:lts
 	
 	
 ```
@@ -474,7 +484,7 @@ docker run --name=jenkins\
 
 ### 7.2 解锁Jenkins
 
-[http://192.168.200.133:8080](http://192.168.200.133:8080) 首次登陆需要，解锁Jenkins
+[http://192.168.200.143:8080](http://192.168.200.143:8080) 首次登陆需要，解锁Jenkins
 
 进入容器内部docker exec -it jenkins bash
 
@@ -554,6 +564,10 @@ docker run --name=jenkins\
                     <imageTags>
                     	<imageTag>${project.version}</imageTag>
                     </imageTags>
+				   <!--Jenkins -->
+                    <registryUrl>192.168.4.143:5000</registryUrl>
+                    <pushImage>true</pushImage>
+                    <imageName>192.168.4.143:5000/${project.artifactId}       					</imageName>
                     <!-- 构建镜像的配置信息 -->
                     <resources>
                     	<resource>
@@ -584,7 +598,7 @@ http-demo
 #### 8.2.2 配置git仓库
 
 ```xml
-Repository URL: http://192.168.200.133:8888/root/http-demo.git
+Repository URL: http://192.168.4.143:8888/xiaohuaidan/springboot-demo1.git
 ```
 
  
@@ -594,38 +608,37 @@ Repository URL: http://192.168.200.133:8888/root/http-demo.git
 - 使用shell脚本停止容器、删除容器、删除镜像，shell脚本如下：
 
 ```shell
-#！/bin/bash
-result=$(docker ps | grep "192.168.200.133:5000/http-demo")
-if [["$result" != ""]]
+#!/bin/bash
+result=$(docker ps | grep "192.168.4.143:5000/springboot-demo1")
+if [[ "$result" != "" ]]
 then
-echo "stop http-demo"
-docker stop http-demo
+echo "stop springboot-demo1"
+docker stop springboot-demo1
 fi
-result1=$(docker ps -a | grep "192.168.200.133:5000/http-demo")
-if[["$result1" != ""]]
+result1=$(docker ps -a | grep "192.168..4.143:5000/springboot-demo1")
+if[[ "$result1" != "" ]]
 then
-echo "rm http-demo"
-docker rm http-demo
+echo "rm springboot-demo1"
+docker rm springboot-demo1
 fi
-result2=$(docker images | grep "192.168.200.133:5000/http-demo")
-if [["$result2" != ""]]
+result2=$(docker images | grep "192.168.4.143:5000/springboot-demo1")
+if [[ "$result2" != "" ]]
 then
-echo "192.168.200.133:5000/http-demohttp-demo:1.0-SNAPSHOT"
-docker rmi 192.168.200.133:5000/http-demo:1.0-SNAPSHOT
+echo "192.168..4.143:5000/springboot-demo1 springboot-demo1:1.0-SNAPSHOT"
+docker rmi 192.168..4.143:5000/springboot-demo1:1.0-SNAPSHOT
 fi
-
 ```
 
 - 执行maven构建
 
 ```xml
-clean package -f pom_docker_registry.xml -DskipTests docker:build
+mvn clean package -f pom.xml -DskipTests docker:build
 ```
 
 - 拉取镜像，创建容器，启动容器
 
 ```xml
-docker run --name http-demo -p 10000:10000 -idt 192.168.200.133:5000/http-demo:1.0-SNAPSHOT
+docker run --name springboot-demo1 -p 10000:10000 -idt 192.168.4.143:5000/springboot-demo1:1.0-SNAPSHOT
 ```
 
 
