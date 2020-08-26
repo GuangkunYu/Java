@@ -8,5 +8,7 @@ public class FuZiTest {
         Zi z = new Zi();
         z.method();
         z.show();
+
+        Zi zi = new Zi(20);
     }
 }

@@ -55,7 +55,71 @@ package inherit_grammar;
 
         super         super.成员变量        super(...)          super.成员方法(...)
                      访问父类成员变量       访问父类构造方法        访问父类成员方法
+
+
+    继承中构造方法的访问特点：
+        子类中所有的构造方法默认都会访问父类中无参的构造方法
+        为什么？
+            因为子类会继承父类中的数据，可能还会使用父类的数据。所以，子类初始化之前，一定要先完成父类数据的初始化
+            每一个子类构造方法的第一条语句默认都是：super()
+        如果父类中没有无参构造方法，只有带参构造方法，该怎么办呢？
+            通过使用super关键字去显示的调用父类的带参构造方法
+            在父类中自己提供一个无参构造方法
+            推荐：
+                自己给出无参构造方法
+
+
+    继承中成员方法的访问特点：
+        通过子类对象访问一个方法：
+            子类成员范围找
+            父类成员范围找
+            如果都没有就报错（不考虑父亲的父亲）
+
+    继承的注意事项：
+        java中类只支持单继承，不支持多继承
+        java中类支持多层继承
+
+
+
+    方法重写：
+        子类中出现了和父类中一模一样的方法声明
+        应用：
+            当子类需要父类的功能，而功能主体子类有自己特有内容时，可以重写父类中的方法，这样，
+            即沿袭了父类的功能，又定义了子类特有的内容
+        注意事项：
+            私有方法不能被重写（父类私有成员子类不能继承）
+            子类方法访问权限不能更低（public > 默认 > 私有）
  */
 
 public class Person {
+    /*
+        需求：定义老师类和学生类，然后写代码测试，最后找到老师类和学生类当中的共性内容，
+             抽取出一个父类，用继承的方式改写代码，并进行测试
+     */
+    private String name;
+    private int age;
+
+    public Person() {
+    }
+
+    public Person(String name, int age) {
+        this.name = name;
+        this.age = age;
+    }
+
+    public String getName() {
+        return name;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    public int getAge() {
+        return age;
+    }
+
+    public void setAge(int age) {
+        this.age = age;
+    }
 }
