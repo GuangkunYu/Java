@@ -2,56 +2,21 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cd1fab63-9709-4677-a751-8f6daaadb1a3" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../JavaSE/src/inherit_grammar/Animals.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JavaSE/src/inherit_grammar/AnimalsDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JavaSE/src/inherit_grammar/Cat.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JavaSE/src/inherit_grammar/NewPhone.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JavaSE/src/inherit_grammar/Phone.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JavaSE/src/inherit_grammar/PhoneDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JavaSE/src/inherit_grammar/StuTeaDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JavaSE/src/modifier_grammar/PermissionModifier.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JavaSE/src/modifier_grammar/StateModifier.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ AbstractClass/src/com/abstractclass/Animal.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ AbstractClass/src/com/abstractclass/AnimalDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ AbstractClass/src/com/abstractclass/Cat.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ AbstractClass/src/com/abstractclass/Demo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ AbstractClass/src/com/abstractclass1/Animal.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ AbstractClass/src/com/abstractclass1/AnimalTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ AbstractClass/src/com/abstractclass1/Cat.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ AbstractClass/src/com/abstractclass1/Dog.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Interface/src/com/interfaces/Cat.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Interface/src/com/interfaces/Demo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Interface/src/com/interfaces/Jumpping.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Interface/src/com/interfaces/JumppingDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Interface/src/com/interfaces1/AthleteTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Interface/src/com/interfaces1/BasketballCoach.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Interface/src/com/interfaces1/BasketballPlayer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Interface/src/com/interfaces1/Coach.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Interface/src/com/interfaces1/Demo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Interface/src/com/interfaces1/Person.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Interface/src/com/interfaces1/Player.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Interface/src/com/interfaces1/SpeakEnglish.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Interface/src/com/interfaces1/TableTennisCoach.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Interface/src/com/interfaces1/TableTennisPlayer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Polymorphism/src/com/polymorphism/Animal.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Polymorphism/src/com/polymorphism/AnimalDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Polymorphism/src/com/polymorphism/Cat.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Polymorphism/src/com/polymorphism/PolymorphismDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Polymorphism/src/com/polymorphism1/Animal.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Polymorphism/src/com/polymorphism1/AnimalDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Polymorphism/src/com/polymorphism1/Cat.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Polymorphism/src/com/polymorphism2/Animal.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Polymorphism/src/com/polymorphism2/AnimalTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Polymorphism/src/com/polymorphism2/Cat.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Polymorphism/src/com/polymorphism2/Dog.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../JavaSE/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaSE/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../JavaSE/src/inherit_grammar/Fu.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaSE/src/inherit_grammar/Fu.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../JavaSE/src/inherit_grammar/FuZiTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaSE/src/inherit_grammar/FuZiTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../JavaSE/src/inherit_grammar/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaSE/src/inherit_grammar/Person.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../JavaSE/src/inherit_grammar/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaSE/src/inherit_grammar/Student.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../JavaSE/src/inherit_grammar/Teacher.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaSE/src/inherit_grammar/Teacher.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../JavaSE/src/inherit_grammar/Zi.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaSE/src/inherit_grammar/Zi.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ClassUse/ClassUse.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ClassUse/src/com/anonymousinnerclass/Demo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ClassUse/src/com/class2formalreturn/Abstract2formalreturn.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ClassUse/src/com/class2formalreturn/Interface2formalreturn.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ClassUse/src/com/innerclass/Demo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ClassUse/src/com/innerclass/Outer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ClassUse/src/com/localinnerclass/InnerTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ClassUse/src/com/localinnerclass/Outer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ClassUse/src/com/memberinnerclass/Demo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ClassUse/src/com/memberinnerclass/InnerTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ClassUse/src/com/memberinnerclass/Outer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CommonAPI/CommonAPI.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CommonAPI/src/com/mathapi/Demo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -88,12 +53,19 @@
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/ClassUse/src/com/localinnerclass" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\documents\GitHub\Java\JavaSE2\ClassUse\src\com\localinnerclass" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -107,20 +79,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.AthleteTest">
-    <configuration name="AnimalDemo (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.abstractclass.AnimalDemo" />
-      <module name="AbstractClass" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.abstractclass.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.InnerTest (1)">
     <configuration name="AnimalTest (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.abstractclass1.AnimalTest" />
       <module name="AbstractClass" />
@@ -134,12 +93,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="AnimalTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.polymorphism2.AnimalTest" />
-      <module name="Polymorphism" />
+    <configuration name="AthleteTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.interfaces1.AthleteTest" />
+      <module name="Interface" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.polymorphism2.*" />
+          <option name="PATTERN" value="com.interfaces1.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -147,12 +106,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="AthleteTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.interfaces1.AthleteTest" />
-      <module name="Interface" />
+    <configuration name="InnerTest (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.localinnerclass.InnerTest" />
+      <module name="ClassUse" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.interfaces1.*" />
+          <option name="PATTERN" value="com.localinnerclass.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="InnerTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.memberinnerclass.InnerTest" />
+      <module name="ClassUse" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.memberinnerclass.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -174,19 +146,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.AnimalTest" />
-      <item itemvalue="Application.AnimalDemo (2)" />
       <item itemvalue="Application.AnimalTest (1)" />
       <item itemvalue="Application.JumppingDemo" />
       <item itemvalue="Application.AthleteTest" />
+      <item itemvalue="Application.InnerTest" />
+      <item itemvalue="Application.InnerTest (1)" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.InnerTest (1)" />
+        <item itemvalue="Application.InnerTest" />
         <item itemvalue="Application.AthleteTest" />
         <item itemvalue="Application.JumppingDemo" />
         <item itemvalue="Application.AnimalTest (1)" />
-        <item itemvalue="Application.AnimalDemo (2)" />
-        <item itemvalue="Application.AnimalTest" />
       </list>
     </recent_temporary>
   </component>
@@ -201,6 +173,7 @@
       <option name="presentableId" value="Default" />
       <updated>1598413399044</updated>
       <workItem from="1598413403045" duration="13527000" />
+      <workItem from="1598486862751" duration="8510000" />
     </task>
     <servers />
   </component>
@@ -212,7 +185,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
