@@ -5,7 +5,9 @@
       <module fileurl="file://$PROJECT_DIR$/ AbstractClass/AbstractClass.iml" filepath="$PROJECT_DIR$/ AbstractClass/AbstractClass.iml" />
       <module fileurl="file://$PROJECT_DIR$/ClassUse/ClassUse.iml" filepath="$PROJECT_DIR$/ClassUse/ClassUse.iml" />
       <module fileurl="file://$PROJECT_DIR$/CommonAPI/CommonAPI.iml" filepath="$PROJECT_DIR$/CommonAPI/CommonAPI.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Gather/Gather.iml" filepath="$PROJECT_DIR$/Gather/Gather.iml" />
       <module fileurl="file://$PROJECT_DIR$/Interface/Interface.iml" filepath="$PROJECT_DIR$/Interface/Interface.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Exception/MyException.iml" filepath="$PROJECT_DIR$/Exception/MyException.iml" />
       <module fileurl="file://$PROJECT_DIR$/Polymorphism/Polymorphism.iml" filepath="$PROJECT_DIR$/Polymorphism/Polymorphism.iml" />
     </modules>
   </component>

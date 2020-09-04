@@ -2,26 +2,27 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cd1fab63-9709-4677-a751-8f6daaadb1a3" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/CommonAPI/src/com/arraysapi/ArraysDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CommonAPI/src/com/arraysapi/BoxingUnboxingDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CommonAPI/src/com/arraysapi/BubbleSortDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CommonAPI/src/com/arraysapi/IntToStringDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CommonAPI/src/com/arraysapi/IntegerDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CommonAPI/src/com/arraysapi/StringSortTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CommonAPI/src/com/calendarapi/CalendarDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CommonAPI/src/com/calendarapi/CalendarMethodDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CommonAPI/src/com/calendarapi/CalendarTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CommonAPI/src/com/dateapi/DateDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CommonAPI/src/com/dateapi/DateMethodDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CommonAPI/src/com/dateapi/DateUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CommonAPI/src/com/dateapi/DateUtilsTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CommonAPI/src/com/dateapi/SimpleDateFormatDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CommonAPI/src/com/objectapi/EqualsDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CommonAPI/src/com/objectapi/Student.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CommonAPI/src/com/objectapi/ToStringDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CommonAPI/src/com/systemapi/Demo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Exception/MyException.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Exception/src/com/exception/CustomException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Exception/src/com/exception/Demo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Exception/src/com/exception/ExceptionDifferenceDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Exception/src/com/exception/Teacher.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Exception/src/com/exception/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Exception/src/com/exception/ThrowableDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Exception/src/com/exception/ThrowsDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gather/Gather.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gather/src/com/collection/CollectionDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gather/src/com/collection/CollectionMethod.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gather/src/com/collection/CollectionTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gather/src/com/collection/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gather/src/com/collection/TraverseCollection.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gather/src/com/list/ConcurrentModificationException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gather/src/com/list/ListDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gather/src/com/list/ListMethod.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gather/src/com/list/ListTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gather/src/com/list/Student.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CommonAPI/src/com/mathapi/Demo.java" beforeDir="false" afterPath="$PROJECT_DIR$/CommonAPI/src/com/mathapi/Demo.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -68,6 +69,9 @@
     <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.list" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="E:\documents\GitHub\Java\JavaSE2\ClassUse\src\com\localinnerclass" />
     </key>
@@ -84,13 +88,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.CalendarTest">
-    <configuration name="CalendarDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.calendarapi.CalendarDemo" />
-      <module name="CommonAPI" />
+  <component name="RunManager" selected="Application.ConcurrentModificationException">
+    <configuration name="CollectionDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.collection.CollectionDemo" />
+      <module name="Gather" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.calendarapi.*" />
+          <option name="PATTERN" value="com.collection.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -98,12 +102,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CalendarMethodDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.calendarapi.CalendarMethodDemo" />
-      <module name="CommonAPI" />
+    <configuration name="ConcurrentModificationException" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.list.ConcurrentModificationException" />
+      <module name="Gather" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.calendarapi.*" />
+          <option name="PATTERN" value="com.list.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -111,12 +115,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CalendarTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.calendarapi.CalendarTest" />
-      <module name="CommonAPI" />
+    <configuration name="ListDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.list.ListDemo" />
+      <module name="Gather" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.calendarapi.*" />
+          <option name="PATTERN" value="com.list.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -124,12 +128,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DateUtilsTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.dateapi.DateUtilsTest" />
-      <module name="CommonAPI" />
+    <configuration name="ListMethod" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.list.ListMethod" />
+      <module name="Gather" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.dateapi.*" />
+          <option name="PATTERN" value="com.list.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -137,12 +141,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SimpleDateFormatDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.dateapi.SimpleDateFormatDemo" />
-      <module name="CommonAPI" />
+    <configuration name="ListTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.list.ListTest" />
+      <module name="Gather" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.dateapi.*" />
+          <option name="PATTERN" value="com.list.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -151,19 +155,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.SimpleDateFormatDemo" />
-      <item itemvalue="Application.DateUtilsTest" />
-      <item itemvalue="Application.CalendarDemo" />
-      <item itemvalue="Application.CalendarMethodDemo" />
-      <item itemvalue="Application.CalendarTest" />
+      <item itemvalue="Application.CollectionDemo" />
+      <item itemvalue="Application.ListDemo" />
+      <item itemvalue="Application.ListMethod" />
+      <item itemvalue="Application.ListTest" />
+      <item itemvalue="Application.ConcurrentModificationException" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.CalendarTest" />
-        <item itemvalue="Application.CalendarMethodDemo" />
-        <item itemvalue="Application.CalendarDemo" />
-        <item itemvalue="Application.DateUtilsTest" />
-        <item itemvalue="Application.SimpleDateFormatDemo" />
+        <item itemvalue="Application.ConcurrentModificationException" />
+        <item itemvalue="Application.ListTest" />
+        <item itemvalue="Application.ListMethod" />
+        <item itemvalue="Application.ListDemo" />
+        <item itemvalue="Application.CollectionDemo" />
       </list>
     </recent_temporary>
   </component>
@@ -182,6 +186,10 @@
       <workItem from="1598832103303" duration="10279000" />
       <workItem from="1598853087983" duration="2833000" />
       <workItem from="1598868855241" duration="7047000" />
+      <workItem from="1598920816571" duration="2626000" />
+      <workItem from="1598938326828" duration="8625000" />
+      <workItem from="1599136628144" duration="1421000" />
+      <workItem from="1599180172529" duration="5673000" />
     </task>
     <servers />
   </component>
