@@ -2,26 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cd1fab63-9709-4677-a751-8f6daaadb1a3" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Exception/MyException.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Exception/src/com/exception/CustomException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Exception/src/com/exception/Demo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Exception/src/com/exception/ExceptionDifferenceDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Exception/src/com/exception/Teacher.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Exception/src/com/exception/Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Exception/src/com/exception/ThrowableDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Exception/src/com/exception/ThrowsDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Gather/Gather.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Gather/src/com/collection/CollectionDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Gather/src/com/collection/CollectionMethod.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Gather/src/com/collection/CollectionTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Gather/src/com/collection/Student.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Gather/src/com/collection/TraverseCollection.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Gather/src/com/list/ConcurrentModificationException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Gather/src/com/list/ListDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Gather/src/com/list/ListMethod.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Gather/src/com/list/ListTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Gather/src/com/list/Student.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gather/src/com/list/EnhanceFor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gather/src/com/list/LinkedListDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gather/src/com/list/ListIteratorDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gather/src/com/list/ListSonDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gather/src/com/list/ListStudentDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gather/src/com/list/ListStudentTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gather/src/com/set/HashDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gather/src/com/set/HashSetDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gather/src/com/set/HashSetStudent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gather/src/com/set/LinkedHashSetDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gather/src/com/set/SetDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gather/src/com/set/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gather/src/com/set/TreeSetDemo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -70,6 +63,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.set" />
       <recent name="com.list" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
@@ -88,13 +82,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.ConcurrentModificationException">
-    <configuration name="CollectionDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.collection.CollectionDemo" />
+  <component name="RunManager" selected="Application.TreeSetDemo">
+    <configuration name="HashDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.set.HashDemo" />
       <module name="Gather" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.collection.*" />
+          <option name="PATTERN" value="com.set.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -102,12 +96,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ConcurrentModificationException" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.list.ConcurrentModificationException" />
+    <configuration name="HashSetDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.set.HashSetDemo" />
       <module name="Gather" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.list.*" />
+          <option name="PATTERN" value="com.set.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -115,12 +109,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ListDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.list.ListDemo" />
+    <configuration name="HashSetStudent" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.set.HashSetStudent" />
       <module name="Gather" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.list.*" />
+          <option name="PATTERN" value="com.set.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -128,12 +122,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ListMethod" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.list.ListMethod" />
+    <configuration name="LinkedHashSetDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.set.LinkedHashSetDemo" />
       <module name="Gather" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.list.*" />
+          <option name="PATTERN" value="com.set.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -141,12 +135,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ListTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.list.ListTest" />
+    <configuration name="TreeSetDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.set.TreeSetDemo" />
       <module name="Gather" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.list.*" />
+          <option name="PATTERN" value="com.set.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -155,19 +149,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.CollectionDemo" />
-      <item itemvalue="Application.ListDemo" />
-      <item itemvalue="Application.ListMethod" />
-      <item itemvalue="Application.ListTest" />
-      <item itemvalue="Application.ConcurrentModificationException" />
+      <item itemvalue="Application.HashDemo" />
+      <item itemvalue="Application.HashSetDemo" />
+      <item itemvalue="Application.HashSetStudent" />
+      <item itemvalue="Application.LinkedHashSetDemo" />
+      <item itemvalue="Application.TreeSetDemo" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.ConcurrentModificationException" />
-        <item itemvalue="Application.ListTest" />
-        <item itemvalue="Application.ListMethod" />
-        <item itemvalue="Application.ListDemo" />
-        <item itemvalue="Application.CollectionDemo" />
+        <item itemvalue="Application.TreeSetDemo" />
+        <item itemvalue="Application.LinkedHashSetDemo" />
+        <item itemvalue="Application.HashSetStudent" />
+        <item itemvalue="Application.HashSetDemo" />
+        <item itemvalue="Application.HashDemo" />
       </list>
     </recent_temporary>
   </component>
@@ -190,6 +184,9 @@
       <workItem from="1598938326828" duration="8625000" />
       <workItem from="1599136628144" duration="1421000" />
       <workItem from="1599180172529" duration="5673000" />
+      <workItem from="1599191210006" duration="3795000" />
+      <workItem from="1599442432131" duration="7981000" />
+      <workItem from="1599477648475" duration="5130000" />
     </task>
     <servers />
   </component>
