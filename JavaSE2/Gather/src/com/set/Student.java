@@ -1,6 +1,6 @@
 package com.set;
 
-public class Student {
+public class Student implements Comparable<Student>{
     private String name;
     private int age;
 
@@ -42,5 +42,12 @@ public class Student {
 
         if (age != student.age) return false;
         return name != null ? name.equals(student.name) : student.name == null;
+    }
+
+    @Override
+    public int compareTo(Student o) {
+        int num = this.age - o.age;
+        int num2 = num == 0?this.name.compareTo(o.name):num;
+        return num2;
     }
 }

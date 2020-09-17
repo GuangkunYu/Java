@@ -2,20 +2,73 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cd1fab63-9709-4677-a751-8f6daaadb1a3" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Gather/src/com/list/EnhanceFor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Gather/src/com/list/LinkedListDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Gather/src/com/list/ListIteratorDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Gather/src/com/list/ListSonDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Gather/src/com/list/ListStudentDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Gather/src/com/list/ListStudentTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Gather/src/com/set/HashDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Gather/src/com/set/HashSetDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Gather/src/com/set/HashSetStudent.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Gather/src/com/set/LinkedHashSetDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Gather/src/com/set/SetDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Gather/src/com/set/Student.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Gather/src/com/set/TreeSetDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gather/src/com/collections/CollectionsDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gather/src/com/collections/CollectionsStudentDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gather/src/com/collections/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gather/src/com/collections/fightthelandlord/FightTheLandlordDemo1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gather/src/com/collections/fightthelandlord/FightTheLandlordDemo2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gather/src/com/map/MapDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gather/src/com/map/MapGet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gather/src/com/map/MapMethod.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gather/src/com/map/arraylisthashmap/ArrayListHashMapDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gather/src/com/map/arraylisthashmap/HashMapArrayListDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gather/src/com/map/arraylisthashmap/StringCount.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gather/src/com/map/studentdemo/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gather/src/com/map/studentdemo/StudentMapDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gather/src/com/map/studentdemo/StudentMapDemo2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gather/src/com/set/ComparableDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gather/src/com/set/ComparatorDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gather/src/com/set/test/ComparatorTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gather/src/com/set/test/NopeatNumTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gather/src/com/set/test/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Genericity/Genericity.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Genericity/src/com/genericity/Demo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Genericity/src/com/genericity/GenegicImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Genericity/src/com/genericity/GenegicInterface.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Genericity/src/com/genericity/GenegicInterfaceTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Genericity/src/com/genericity/GenegicMethod.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Genericity/src/com/genericity/GenegicMethodTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Genericity/src/com/genericity/Generic.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Genericity/src/com/genericity/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Genericity/src/com/genericity/Teacher.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Genericity/src/com/typewildcards/TypeWildcards.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Genericity/src/com/variableelement/MethodDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Genericity/src/com/variableelement/VariableElement.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/IO/src/com/a.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/IO/src/com/bufferbytes/02_字节流复制视频.avi" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/IO/src/com/bufferbytes/BufferDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/IO/src/com/bufferbytes/CopyVideoDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/IO/src/com/bufferbytes/bos.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/IO/src/com/bytes/FileInputStreamDemo1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/IO/src/com/bytes/FileInputStreamDemo2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/IO/src/com/bytes/FileOutputStreamDemo1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/IO/src/com/bytes/FileOutputStreamDemo2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/IO/src/com/bytes/FileOutputStreamDemo3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/IO/src/com/bytes/FileOutputStreamDemo4.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/IO/src/com/bytes/IOCopyImage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/IO/src/com/bytes/IOCopyTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/IO/src/com/bytes/fos.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/IO/src/com/bytes/timg.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/IO/src/com/charstream/CharStreamDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/IO/src/com/file/FileDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/IO/src/com/file/FileMethod.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/IO/src/com/file/FileMethod2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/IO/src/com/file/FileMethod3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/IO/src/com/fos.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/IO/src/com/fos2.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/IO/src/com/fos3.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/IO/src/com/recursion/Factorial.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/IO/src/com/recursion/RecursionDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/IO/src/com/recursion/RecursionFile.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/IO/src/com/timg.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/IO/src/file1/java.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/IO/src/file1/python.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/IO/src/file2/c.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/IO/src/file2/php.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/IO/src/file3/c++.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Gather/src/com/set/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/Gather/src/com/set/Student.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -49,20 +102,27 @@
     </option>
   </component>
   <component name="ProjectId" id="1gcUVjtzSLixEO7V7MManPfYRzh" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/ClassUse/src/com/localinnerclass" />
+    <property name="last_opened_file_path" value="E:/lddq/project/mddp" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\documents\GitHub\Java\JavaSE2\IO" />
+    </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.collections.fightthelandlord" />
       <recent name="com.set" />
       <recent name="com.list" />
     </key>
@@ -82,13 +142,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.TreeSetDemo">
-    <configuration name="HashDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.set.HashDemo" />
-      <module name="Gather" />
+  <component name="RunManager" selected="Application.CharStreamDemo">
+    <configuration name="BufferDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.bufferbytes.BufferDemo" />
+      <module name="IO" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.set.*" />
+          <option name="PATTERN" value="com.bufferbytes.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -96,12 +156,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="HashSetDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.set.HashSetDemo" />
-      <module name="Gather" />
+    <configuration name="CharStreamDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.charstream.CharStreamDemo" />
+      <module name="IO" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.set.*" />
+          <option name="PATTERN" value="com.charstream.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -109,12 +169,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="HashSetStudent" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.set.HashSetStudent" />
-      <module name="Gather" />
+    <configuration name="CopyVideoDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.bufferbytes.CopyVideoDemo" />
+      <module name="IO" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.set.*" />
+          <option name="PATTERN" value="com.bufferbytes.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -122,12 +182,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LinkedHashSetDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.set.LinkedHashSetDemo" />
-      <module name="Gather" />
+    <configuration name="FileInputStreamDemo2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.bytes.FileInputStreamDemo2" />
+      <module name="IO" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.set.*" />
+          <option name="PATTERN" value="com.bytes.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -135,12 +195,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TreeSetDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.set.TreeSetDemo" />
-      <module name="Gather" />
+    <configuration name="IOCopyImage" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.bytes.IOCopyImage" />
+      <module name="IO" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.set.*" />
+          <option name="PATTERN" value="com.bytes.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -149,19 +209,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.HashDemo" />
-      <item itemvalue="Application.HashSetDemo" />
-      <item itemvalue="Application.HashSetStudent" />
-      <item itemvalue="Application.LinkedHashSetDemo" />
-      <item itemvalue="Application.TreeSetDemo" />
+      <item itemvalue="Application.FileInputStreamDemo2" />
+      <item itemvalue="Application.IOCopyImage" />
+      <item itemvalue="Application.BufferDemo" />
+      <item itemvalue="Application.CopyVideoDemo" />
+      <item itemvalue="Application.CharStreamDemo" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.TreeSetDemo" />
-        <item itemvalue="Application.LinkedHashSetDemo" />
-        <item itemvalue="Application.HashSetStudent" />
-        <item itemvalue="Application.HashSetDemo" />
-        <item itemvalue="Application.HashDemo" />
+        <item itemvalue="Application.CharStreamDemo" />
+        <item itemvalue="Application.CopyVideoDemo" />
+        <item itemvalue="Application.BufferDemo" />
+        <item itemvalue="Application.IOCopyImage" />
+        <item itemvalue="Application.FileInputStreamDemo2" />
       </list>
     </recent_temporary>
   </component>
@@ -187,6 +247,18 @@
       <workItem from="1599191210006" duration="3795000" />
       <workItem from="1599442432131" duration="7981000" />
       <workItem from="1599477648475" duration="5130000" />
+      <workItem from="1599525352935" duration="509000" />
+      <workItem from="1599525898866" duration="594000" />
+      <workItem from="1599530923351" duration="1814000" />
+      <workItem from="1599548571773" duration="5906000" />
+      <workItem from="1599563353739" duration="6624000" />
+      <workItem from="1599627653343" duration="10536000" />
+      <workItem from="1599697907967" duration="8259000" />
+      <workItem from="1599709034013" duration="10651000" />
+      <workItem from="1599787869923" duration="13072000" />
+      <workItem from="1600043707691" duration="494000" />
+      <workItem from="1600045528481" duration="9195000" />
+      <workItem from="1600130771310" duration="20000" />
     </task>
     <servers />
   </component>
@@ -205,5 +277,8 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
 </project>
