@@ -2,73 +2,57 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cd1fab63-9709-4677-a751-8f6daaadb1a3" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Gather/src/com/collections/CollectionsDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Gather/src/com/collections/CollectionsStudentDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Gather/src/com/collections/Student.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Gather/src/com/collections/fightthelandlord/FightTheLandlordDemo1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Gather/src/com/collections/fightthelandlord/FightTheLandlordDemo2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Gather/src/com/map/MapDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Gather/src/com/map/MapGet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Gather/src/com/map/MapMethod.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Gather/src/com/map/arraylisthashmap/ArrayListHashMapDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Gather/src/com/map/arraylisthashmap/HashMapArrayListDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Gather/src/com/map/arraylisthashmap/StringCount.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Gather/src/com/map/studentdemo/Student.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Gather/src/com/map/studentdemo/StudentMapDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Gather/src/com/map/studentdemo/StudentMapDemo2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Gather/src/com/set/ComparableDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Gather/src/com/set/ComparatorDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Gather/src/com/set/test/ComparatorTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Gather/src/com/set/test/NopeatNumTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Gather/src/com/set/test/Student.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Genericity/Genericity.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Genericity/src/com/genericity/Demo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Genericity/src/com/genericity/GenegicImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Genericity/src/com/genericity/GenegicInterface.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Genericity/src/com/genericity/GenegicInterfaceTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Genericity/src/com/genericity/GenegicMethod.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Genericity/src/com/genericity/GenegicMethodTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Genericity/src/com/genericity/Generic.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Genericity/src/com/genericity/Student.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Genericity/src/com/genericity/Teacher.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Genericity/src/com/typewildcards/TypeWildcards.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Genericity/src/com/variableelement/MethodDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Genericity/src/com/variableelement/VariableElement.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/IO/src/com/a.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/IO/src/com/bufferbytes/02_字节流复制视频.avi" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/IO/src/com/bufferbytes/BufferDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/IO/src/com/bufferbytes/CopyVideoDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/IO/src/com/bufferbytes/bos.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/IO/src/com/bytes/FileInputStreamDemo1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/IO/src/com/bytes/FileInputStreamDemo2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/IO/src/com/bytes/FileOutputStreamDemo1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/IO/src/com/bytes/FileOutputStreamDemo2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/IO/src/com/bytes/FileOutputStreamDemo3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/IO/src/com/bytes/FileOutputStreamDemo4.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/IO/src/com/bytes/IOCopyImage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/IO/src/com/bytes/IOCopyTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/IO/src/com/bytes/fos.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/IO/src/com/bytes/timg.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/IO/src/com/charstream/CharStreamDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/IO/src/com/file/FileDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/IO/src/com/file/FileMethod.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/IO/src/com/file/FileMethod2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/IO/src/com/file/FileMethod3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/IO/src/com/fos.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/IO/src/com/fos2.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/IO/src/com/fos3.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/IO/src/com/recursion/Factorial.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/IO/src/com/recursion/RecursionDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/IO/src/com/recursion/RecursionFile.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/IO/src/com/timg.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/IO/src/file1/java.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/IO/src/file1/python.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/IO/src/file2/c.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/IO/src/file2/php.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/IO/src/file3/c++.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/IO/Copy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/IO/oos.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/IO/pw.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/IO/src/com/Copy" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/IO/src/com/anli/ArrayListToFileDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/IO/src/com/anli/ArrayListToTxtDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/IO/src/com/anli/CallNameDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/IO/src/com/anli/CopyFileDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/IO/src/com/anli/CopyFolderDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/IO/src/com/anli/CopyFoldersDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/IO/src/com/anli/Demo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/IO/src/com/anli/FileToArrayListDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/IO/src/com/anli/Score.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/IO/src/com/anli/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/IO/src/com/anli/TreeSetToFileDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/IO/src/com/anli/TxtToArrayListDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/IO/src/com/anli/arrayListToTxt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/IO/src/com/anli/names.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/IO/src/com/anli/student.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/IO/src/com/anli/studentScore.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/IO/src/com/bufferchar/BufferCharDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/IO/src/com/bufferchar/BufferCharMethod.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/IO/src/com/bufferchar/Copy" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/IO/src/com/bufferchar/Copy2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/IO/src/com/bufferchar/CopyJavaDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/IO/src/com/bufferchar/CopyJavaDemo2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/IO/src/com/bufferchar/bw.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/IO/src/com/bufferchar/bw2.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/IO/src/com/charstream/BytesStringDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/IO/src/com/charstream/CharStreaReadDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/IO/src/com/charstream/CharStreamBytesDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/IO/src/com/charstream/CharStreamWriteDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/IO/src/com/charstream/CopyJavaFileDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/IO/src/com/charstream/CopyJavaFileDemo2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/IO/src/com/charstream/osw.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/IO/src/com/charstream/osw1.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/IO/src/com/specialflow/PrintStreamIO/CopyJavaDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/IO/src/com/specialflow/PrintStreamIO/PintStreamDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/IO/src/com/specialflow/PrintStreamIO/PrintWriterDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/IO/src/com/specialflow/objectSerializationFlow/ObjectInputStreamDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/IO/src/com/specialflow/objectSerializationFlow/ObjectOutputStreamDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/IO/src/com/specialflow/objectSerializationFlow/ObjectStreamDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/IO/src/com/specialflow/objectSerializationFlow/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/IO/src/com/specialflow/properties/PropertiesDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/IO/src/com/specialflow/properties/PropertiesDemo2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/IO/src/com/specialflow/properties/PropertiesIODemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/IO/src/com/specialflow/standardIO/SystemInDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/IO/src/com/specialflow/standardIO/SystemOutDemo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Gather/src/com/set/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/Gather/src/com/set/Student.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/IO/src/com/bytes/timg.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/IO/src/com/bufferbytes/timg.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/IO/com/bytes/timg.jpg" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -112,13 +96,15 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="E:/lddq/project/mddp" />
-    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.last.edited" value="Artifacts" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\Code\Java\JavaSE2\IO\src\com\bufferbytes" />
+      <recent name="E:\Code\Java\JavaSE2\IO\src\com\anli" />
       <recent name="E:\documents\GitHub\Java\JavaSE2\IO" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
@@ -142,13 +128,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.CharStreamDemo">
-    <configuration name="BufferDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.bufferbytes.BufferDemo" />
+  <component name="RunManager" selected="Application.PropertiesDemo2">
+    <configuration name="ObjectInputStreamDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.specialflow.objectSerializationFlow.ObjectInputStreamDemo" />
       <module name="IO" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.bufferbytes.*" />
+          <option name="PATTERN" value="com.specialflow.objectSerializationFlow.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -156,12 +142,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CharStreamDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.charstream.CharStreamDemo" />
+    <configuration name="ObjectOutputStreamDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.specialflow.objectSerializationFlow.ObjectOutputStreamDemo" />
       <module name="IO" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.charstream.*" />
+          <option name="PATTERN" value="com.specialflow.objectSerializationFlow.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -169,12 +155,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CopyVideoDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.bufferbytes.CopyVideoDemo" />
+    <configuration name="ObjectStreamDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.specialflow.objectSerializationFlow.ObjectStreamDemo" />
       <module name="IO" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.bufferbytes.*" />
+          <option name="PATTERN" value="com.specialflow.objectSerializationFlow.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -182,12 +168,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FileInputStreamDemo2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.bytes.FileInputStreamDemo2" />
+    <configuration name="PropertiesDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.specialflow.properties.PropertiesDemo" />
       <module name="IO" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.bytes.*" />
+          <option name="PATTERN" value="com.specialflow.properties.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -195,12 +181,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="IOCopyImage" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.bytes.IOCopyImage" />
+    <configuration name="PropertiesDemo2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.specialflow.properties.PropertiesDemo2" />
       <module name="IO" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.bytes.*" />
+          <option name="PATTERN" value="com.specialflow.properties.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -209,19 +195,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.FileInputStreamDemo2" />
-      <item itemvalue="Application.IOCopyImage" />
-      <item itemvalue="Application.BufferDemo" />
-      <item itemvalue="Application.CopyVideoDemo" />
-      <item itemvalue="Application.CharStreamDemo" />
+      <item itemvalue="Application.ObjectOutputStreamDemo" />
+      <item itemvalue="Application.ObjectInputStreamDemo" />
+      <item itemvalue="Application.ObjectStreamDemo" />
+      <item itemvalue="Application.PropertiesDemo" />
+      <item itemvalue="Application.PropertiesDemo2" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.CharStreamDemo" />
-        <item itemvalue="Application.CopyVideoDemo" />
-        <item itemvalue="Application.BufferDemo" />
-        <item itemvalue="Application.IOCopyImage" />
-        <item itemvalue="Application.FileInputStreamDemo2" />
+        <item itemvalue="Application.PropertiesDemo2" />
+        <item itemvalue="Application.PropertiesDemo" />
+        <item itemvalue="Application.ObjectStreamDemo" />
+        <item itemvalue="Application.ObjectInputStreamDemo" />
+        <item itemvalue="Application.ObjectOutputStreamDemo" />
       </list>
     </recent_temporary>
   </component>
@@ -259,6 +245,16 @@
       <workItem from="1600043707691" duration="494000" />
       <workItem from="1600045528481" duration="9195000" />
       <workItem from="1600130771310" duration="20000" />
+      <workItem from="1600646751472" duration="624000" />
+      <workItem from="1600951132313" duration="3618000" />
+      <workItem from="1601191837347" duration="1251000" />
+      <workItem from="1601193390460" duration="3819000" />
+      <workItem from="1601202376237" duration="664000" />
+      <workItem from="1601203426546" duration="645000" />
+      <workItem from="1601204378650" duration="5951000" />
+      <workItem from="1601340568694" duration="13597000" />
+      <workItem from="1602204719543" duration="5541000" />
+      <workItem from="1602220097168" duration="6036000" />
     </task>
     <servers />
   </component>
