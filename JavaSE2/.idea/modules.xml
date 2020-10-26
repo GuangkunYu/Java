@@ -10,6 +10,7 @@
       <module fileurl="file://$PROJECT_DIR$/IO/IO.iml" filepath="$PROJECT_DIR$/IO/IO.iml" />
       <module fileurl="file://$PROJECT_DIR$/Interface/Interface.iml" filepath="$PROJECT_DIR$/Interface/Interface.iml" />
       <module fileurl="file://$PROJECT_DIR$/Exception/MyException.iml" filepath="$PROJECT_DIR$/Exception/MyException.iml" />
+      <module fileurl="file://$PROJECT_DIR$/NetworkProgramming/NetworkProgramming.iml" filepath="$PROJECT_DIR$/NetworkProgramming/NetworkProgramming.iml" />
       <module fileurl="file://$PROJECT_DIR$/Polymorphism/Polymorphism.iml" filepath="$PROJECT_DIR$/Polymorphism/Polymorphism.iml" />
       <module fileurl="file://$PROJECT_DIR$/ProcessThread/ProcessThread.iml" filepath="$PROJECT_DIR$/ProcessThread/ProcessThread.iml" />
     </modules>
