@@ -2,57 +2,37 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cd1fab63-9709-4677-a751-8f6daaadb1a3" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Lambda/Lambda.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lambda/src/com/lambda_01/LambdaDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lambda/src/com/lambda_01/MyRunnable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lambda/src/com/lambda_02/Eatable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lambda/src/com/lambda_02/EatableDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lambda/src/com/lambda_02/EatableImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lambda/src/com/lambda_03/Flyable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lambda/src/com/lambda_03/FlyableDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lambda/src/com/lambda_03/FlyableImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lambda/src/com/lambda_04/Addable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lambda/src/com/lambda_04/AddableDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lambda/src/com/lambda_04/AddableImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lambda/src/com/lambda_05/Addable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lambda/src/com/lambda_05/Flyable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lambda/src/com/lambda_05/LambdaDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lambda/src/com/lambda_06/Inter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lambda/src/com/lambda_06/LambdaDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lambda/src/com/lambda_07/Animal.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lambda/src/com/lambda_07/Inter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lambda/src/com/lambda_07/LambdaDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lambda/src/com/lambda_07/Student.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/NetworkProgramming/src/InetAddressDemo.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/NetworkProgramming/src/com/tcp/ServerDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/NetworkProgramming/src/com/tcpdemo1/ClientDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/NetworkProgramming/src/com/tcpdemo1/ServerDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/NetworkProgramming/src/com/tcpdemo2/ClientDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/NetworkProgramming/src/com/tcpdemo2/ServerDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/NetworkProgramming/src/com/tcpdemo3/ClientDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/NetworkProgramming/src/com/tcpdemo3/ServerDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/NetworkProgramming/src/com/tcpdemo3/s.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/NetworkProgramming/src/com/tcpdemo4/ClientDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/NetworkProgramming/src/com/tcpdemo4/Copy.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/NetworkProgramming/src/com/tcpdemo4/ServerDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/NetworkProgramming/src/com/tcpdemo5/ClientDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/NetworkProgramming/src/com/tcpdemo5/Copy.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/NetworkProgramming/src/com/tcpdemo5/ServerDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/NetworkProgramming/src/com/tcpdemo6/ClientDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/NetworkProgramming/src/com/tcpdemo6/Copy.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/NetworkProgramming/src/com/tcpdemo6/Copy[0].txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/NetworkProgramming/src/com/tcpdemo6/Copy[1].txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/NetworkProgramming/src/com/tcpdemo6/ServerDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/NetworkProgramming/src/com/tcpdemo6/ServerThread.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Senior/Senior.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Senior/src/Interface/InterDefault_01/Demo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Senior/src/Interface/InterDefault_01/MyInterface.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Senior/src/Interface/InterDefault_01/MyInterfaceDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Senior/src/Interface/InterDefault_01/MyInterfaceImplOne.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Senior/src/Interface/InterDefault_01/MyInterfaceImplTwo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Senior/src/Interface/InterStatic_01/Inter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Senior/src/Interface/InterStatic_01/InterDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Senior/src/Interface/InterStatic_01/InterImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FunctionalInterface/FunctionalInterface.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FunctionalInterface/src/common_method_inter/Consumer/ConsumerDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FunctionalInterface/src/common_method_inter/Consumer/ConsumerTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FunctionalInterface/src/common_method_inter/Function/FunctionDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FunctionalInterface/src/common_method_inter/Function/FunctionTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FunctionalInterface/src/common_method_inter/Predicate/PredicateDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FunctionalInterface/src/common_method_inter/Predicate/PredicateTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FunctionalInterface/src/common_method_inter/Supplier/SupplierDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FunctionalInterface/src/common_method_inter/Supplier/SupplierTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FunctionalInterface/src/functional_interface/Demo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FunctionalInterface/src/functional_interface/MyInterface.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FunctionalInterface/src/inter_as_params/RunnableDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FunctionalInterface/src/inter_as_return/ComparatorDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Method/Method.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Method/src/constructor/constructor_01/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Method/src/constructor/constructor_01/StudentBuilder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Method/src/constructor/constructor_01/StudentDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Method/src/method_reference/class_method_01/Converter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Method/src/method_reference/class_method_01/Demo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Method/src/method_reference/class_method_02/MyString.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Method/src/method_reference/class_method_02/MyStringDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Method/src/method_reference/method_reference_01/Printable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Method/src/method_reference/method_reference_01/PrintableDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Method/src/method_reference/method_reference_01/PrintableImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Method/src/method_reference/object_method/PrintString.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Method/src/method_reference/object_method/Printer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Method/src/method_reference/object_method/PrinterDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Senior/src/Interface/InterPrivate_01/Inter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Senior/src/Interface/InterPrivate_01/InterDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Senior/src/Interface/InterPrivate_01/InterImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
@@ -99,14 +79,17 @@
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.last.edited" value="SDKs" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="vcs.Git" />
+    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
   </component>
   <component name="RecentsManager">
-    <key name="CreateClassDialog.RecentsKey">
-      <recent name="com.tcpdemo6" />
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="H:\Github\Java\JavaSE2\Gather" />
+      <recent name="E:\Code\Java\JavaSE2\IO\src\com\bufferbytes" />
+      <recent name="E:\Code\Java\JavaSE2\IO\src\com\anli" />
+      <recent name="E:\documents\GitHub\Java\JavaSE2\IO" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="E:\GitHubCode\Java\JavaSE2\NetworkProgramming\src\com\udpdemo" />
@@ -120,10 +103,8 @@
       <recent name="com" />
       <recent name="com.tcpdemo4" />
     </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="E:\Code\Java\JavaSE2\IO\src\com\bufferbytes" />
-      <recent name="E:\Code\Java\JavaSE2\IO\src\com\anli" />
-      <recent name="E:\documents\GitHub\Java\JavaSE2\IO" />
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.tcpdemo6" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -138,13 +119,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.InterDemo">
-    <configuration name="InterDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Interface.InterStatic_01.InterDemo" />
-      <module name="Senior" />
+  <component name="RunManager" selected="Application.FunctionTest">
+    <configuration name="ConsumerTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="common_method_inter.Consumer.ConsumerTest" />
+      <module name="FunctionalInterface" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Interface.InterStatic_01.*" />
+          <option name="PATTERN" value="common_method_inter.Consumer.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -152,12 +133,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LambdaDemo (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.lambda_05.LambdaDemo" />
-      <module name="Lambda" />
+    <configuration name="FunctionDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="common_method_inter.Function.FunctionDemo" />
+      <module name="FunctionalInterface" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.lambda_05.*" />
+          <option name="PATTERN" value="common_method_inter.Function.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -165,12 +146,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LambdaDemo (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.lambda_06.LambdaDemo" />
-      <module name="Lambda" />
+    <configuration name="FunctionTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="common_method_inter.Function.FunctionTest" />
+      <module name="FunctionalInterface" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.lambda_06.*" />
+          <option name="PATTERN" value="common_method_inter.Function.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -178,12 +159,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LambdaDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.lambda_07.LambdaDemo" />
-      <module name="Lambda" />
+    <configuration name="PredicateDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="common_method_inter.Predicate.PredicateDemo" />
+      <module name="FunctionalInterface" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.lambda_07.*" />
+          <option name="PATTERN" value="common_method_inter.Predicate.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -191,12 +172,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MyInterfaceDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Interface.InterDefault_01.MyInterfaceDemo" />
-      <module name="Senior" />
+    <configuration name="PredicateTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="common_method_inter.Predicate.PredicateTest" />
+      <module name="FunctionalInterface" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Interface.InterDefault_01.*" />
+          <option name="PATTERN" value="common_method_inter.Predicate.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -205,19 +186,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.LambdaDemo (1)" />
-      <item itemvalue="Application.LambdaDemo (2)" />
-      <item itemvalue="Application.LambdaDemo" />
-      <item itemvalue="Application.MyInterfaceDemo" />
-      <item itemvalue="Application.InterDemo" />
+      <item itemvalue="Application.ConsumerTest" />
+      <item itemvalue="Application.PredicateDemo" />
+      <item itemvalue="Application.PredicateTest" />
+      <item itemvalue="Application.FunctionDemo" />
+      <item itemvalue="Application.FunctionTest" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.InterDemo" />
-        <item itemvalue="Application.MyInterfaceDemo" />
-        <item itemvalue="Application.LambdaDemo" />
-        <item itemvalue="Application.LambdaDemo (2)" />
-        <item itemvalue="Application.LambdaDemo (1)" />
+        <item itemvalue="Application.FunctionTest" />
+        <item itemvalue="Application.FunctionDemo" />
+        <item itemvalue="Application.PredicateTest" />
+        <item itemvalue="Application.PredicateDemo" />
+        <item itemvalue="Application.ConsumerTest" />
       </list>
     </recent_temporary>
   </component>
@@ -273,6 +254,7 @@
       <workItem from="1603672455984" duration="19836000" />
       <workItem from="1603782583549" duration="2914000" />
       <workItem from="1603843180913" duration="16624000" />
+      <workItem from="1603929784188" duration="24106000" />
     </task>
     <servers />
   </component>
