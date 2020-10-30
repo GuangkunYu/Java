@@ -2,19 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cd1fab63-9709-4677-a751-8f6daaadb1a3" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Stream/Stream.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Stream/src/stream_01/StreamDemo_01.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Stream/src/stream_01/StreamDemo_02.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Stream/src/stream_01/StreamDemo_03.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Stream/src/stream_01/StreamDemo_04.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Stream/src/stream_01/StreamDemo_05.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Stream/src/stream_01/StreamDemo_06.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Stream/src/stream_01/StreamDemo_07.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Stream/src/stream_01/StreamDemo_08.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Stream/src/stream_02/Action.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Stream/src/stream_02/StreamDemo_01.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Stream/src/stream_02/StreamTest_01.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -236,7 +223,7 @@
       <workItem from="1603782583549" duration="2914000" />
       <workItem from="1603843180913" duration="16624000" />
       <workItem from="1603929784188" duration="24106000" />
-      <workItem from="1604017431983" duration="17191000" />
+      <workItem from="1604017431983" duration="17358000" />
     </task>
     <servers />
   </component>
