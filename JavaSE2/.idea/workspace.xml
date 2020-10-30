@@ -2,37 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cd1fab63-9709-4677-a751-8f6daaadb1a3" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/FunctionalInterface/FunctionalInterface.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FunctionalInterface/src/common_method_inter/Consumer/ConsumerDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FunctionalInterface/src/common_method_inter/Consumer/ConsumerTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FunctionalInterface/src/common_method_inter/Function/FunctionDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FunctionalInterface/src/common_method_inter/Function/FunctionTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FunctionalInterface/src/common_method_inter/Predicate/PredicateDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FunctionalInterface/src/common_method_inter/Predicate/PredicateTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FunctionalInterface/src/common_method_inter/Supplier/SupplierDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FunctionalInterface/src/common_method_inter/Supplier/SupplierTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FunctionalInterface/src/functional_interface/Demo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FunctionalInterface/src/functional_interface/MyInterface.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FunctionalInterface/src/inter_as_params/RunnableDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FunctionalInterface/src/inter_as_return/ComparatorDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Method/Method.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Method/src/constructor/constructor_01/Student.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Method/src/constructor/constructor_01/StudentBuilder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Method/src/constructor/constructor_01/StudentDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Method/src/method_reference/class_method_01/Converter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Method/src/method_reference/class_method_01/Demo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Method/src/method_reference/class_method_02/MyString.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Method/src/method_reference/class_method_02/MyStringDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Method/src/method_reference/method_reference_01/Printable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Method/src/method_reference/method_reference_01/PrintableDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Method/src/method_reference/method_reference_01/PrintableImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Method/src/method_reference/object_method/PrintString.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Method/src/method_reference/object_method/Printer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Method/src/method_reference/object_method/PrinterDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Senior/src/Interface/InterPrivate_01/Inter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Senior/src/Interface/InterPrivate_01/InterDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Senior/src/Interface/InterPrivate_01/InterImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Stream/Stream.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Stream/src/stream_01/StreamDemo_01.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Stream/src/stream_01/StreamDemo_02.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Stream/src/stream_01/StreamDemo_03.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Stream/src/stream_01/StreamDemo_04.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Stream/src/stream_01/StreamDemo_05.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Stream/src/stream_01/StreamDemo_06.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Stream/src/stream_01/StreamDemo_07.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Stream/src/stream_01/StreamDemo_08.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Stream/src/stream_02/Action.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Stream/src/stream_02/StreamDemo_01.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Stream/src/stream_02/StreamTest_01.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
@@ -85,11 +66,8 @@
     <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="H:\Github\Java\JavaSE2\Gather" />
-      <recent name="E:\Code\Java\JavaSE2\IO\src\com\bufferbytes" />
-      <recent name="E:\Code\Java\JavaSE2\IO\src\com\anli" />
-      <recent name="E:\documents\GitHub\Java\JavaSE2\IO" />
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.tcpdemo6" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="E:\GitHubCode\Java\JavaSE2\NetworkProgramming\src\com\udpdemo" />
@@ -97,14 +75,17 @@
       <recent name="E:\documents\GitHub\Java\JavaSE2\ClassUse\src\com\localinnerclass" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="stream_01" />
       <recent name="com.lambda_05" />
       <recent name="com.tcpdemo6" />
       <recent name="com.tcpdemo5" />
       <recent name="com" />
-      <recent name="com.tcpdemo4" />
     </key>
-    <key name="CreateClassDialog.RecentsKey">
-      <recent name="com.tcpdemo6" />
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="H:\Github\Java\JavaSE2\Gather" />
+      <recent name="E:\Code\Java\JavaSE2\IO\src\com\bufferbytes" />
+      <recent name="E:\Code\Java\JavaSE2\IO\src\com\anli" />
+      <recent name="E:\documents\GitHub\Java\JavaSE2\IO" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -119,13 +100,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.FunctionTest">
-    <configuration name="ConsumerTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="common_method_inter.Consumer.ConsumerTest" />
-      <module name="FunctionalInterface" />
+  <component name="RunManager" selected="Application.StreamDemo_01">
+    <configuration name="StreamDemo_01" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="stream_02.StreamDemo_01" />
+      <module name="Stream" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="common_method_inter.Consumer.*" />
+          <option name="PATTERN" value="stream_02.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -133,12 +114,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FunctionDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="common_method_inter.Function.FunctionDemo" />
-      <module name="FunctionalInterface" />
+    <configuration name="StreamDemo_06" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="stream_01.StreamDemo_06" />
+      <module name="Stream" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="common_method_inter.Function.*" />
+          <option name="PATTERN" value="stream_01.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -146,12 +127,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FunctionTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="common_method_inter.Function.FunctionTest" />
-      <module name="FunctionalInterface" />
+    <configuration name="StreamDemo_07" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="stream_01.StreamDemo_07" />
+      <module name="Stream" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="common_method_inter.Function.*" />
+          <option name="PATTERN" value="stream_01.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -159,12 +140,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PredicateDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="common_method_inter.Predicate.PredicateDemo" />
-      <module name="FunctionalInterface" />
+    <configuration name="StreamDemo_08" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="stream_01.StreamDemo_08" />
+      <module name="Stream" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="common_method_inter.Predicate.*" />
+          <option name="PATTERN" value="stream_01.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -172,12 +153,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PredicateTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="common_method_inter.Predicate.PredicateTest" />
-      <module name="FunctionalInterface" />
+    <configuration name="StreamTest_01" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="stream_02.StreamTest_01" />
+      <module name="Stream" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="common_method_inter.Predicate.*" />
+          <option name="PATTERN" value="stream_02.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -186,19 +167,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.ConsumerTest" />
-      <item itemvalue="Application.PredicateDemo" />
-      <item itemvalue="Application.PredicateTest" />
-      <item itemvalue="Application.FunctionDemo" />
-      <item itemvalue="Application.FunctionTest" />
+      <item itemvalue="Application.StreamDemo_06" />
+      <item itemvalue="Application.StreamDemo_07" />
+      <item itemvalue="Application.StreamDemo_08" />
+      <item itemvalue="Application.StreamTest_01" />
+      <item itemvalue="Application.StreamDemo_01" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.FunctionTest" />
-        <item itemvalue="Application.FunctionDemo" />
-        <item itemvalue="Application.PredicateTest" />
-        <item itemvalue="Application.PredicateDemo" />
-        <item itemvalue="Application.ConsumerTest" />
+        <item itemvalue="Application.StreamDemo_01" />
+        <item itemvalue="Application.StreamTest_01" />
+        <item itemvalue="Application.StreamDemo_08" />
+        <item itemvalue="Application.StreamDemo_07" />
+        <item itemvalue="Application.StreamDemo_06" />
       </list>
     </recent_temporary>
   </component>
@@ -255,6 +236,7 @@
       <workItem from="1603782583549" duration="2914000" />
       <workItem from="1603843180913" duration="16624000" />
       <workItem from="1603929784188" duration="24106000" />
+      <workItem from="1604017431983" duration="17191000" />
     </task>
     <servers />
   </component>
