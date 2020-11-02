@@ -1,0 +1,2 @@
+className = reflex_05.Teacher
+methodName = teach

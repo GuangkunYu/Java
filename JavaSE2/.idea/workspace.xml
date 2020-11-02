@@ -2,6 +2,23 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cd1fab63-9709-4677-a751-8f6daaadb1a3" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Reflex/class.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Reflex/src/class_loading/ClassLoaderDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Reflex/src/class_loading/Demo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Reflex/src/reflex_01/ReflectDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Reflex/src/reflex_01/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Reflex/src/reflex_02/ReflectDemo01.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Reflex/src/reflex_02/ReflexTest_01.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Reflex/src/reflex_02/ReflexTest_02.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Reflex/src/reflex_03/ReflectDemo01.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Reflex/src/reflex_03/ReflexText_01.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Reflex/src/reflex_04/ReflectDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Reflex/src/reflex_04/ReflexTest_01.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Reflex/src/reflex_05/ReflexText_01.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Reflex/src/reflex_05/ReflexText_02.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Reflex/src/reflex_05/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Reflex/src/reflex_05/Teacher.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -47,14 +64,17 @@
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="project.structure.last.edited" value="SDKs" />
+    <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
   </component>
   <component name="RecentsManager">
-    <key name="CreateClassDialog.RecentsKey">
-      <recent name="com.tcpdemo6" />
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="H:\Github\Java\JavaSE2\Gather" />
+      <recent name="E:\Code\Java\JavaSE2\IO\src\com\bufferbytes" />
+      <recent name="E:\Code\Java\JavaSE2\IO\src\com\anli" />
+      <recent name="E:\documents\GitHub\Java\JavaSE2\IO" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="E:\GitHubCode\Java\JavaSE2\NetworkProgramming\src\com\udpdemo" />
@@ -62,17 +82,14 @@
       <recent name="E:\documents\GitHub\Java\JavaSE2\ClassUse\src\com\localinnerclass" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="reflex_02" />
       <recent name="stream_01" />
       <recent name="com.lambda_05" />
       <recent name="com.tcpdemo6" />
       <recent name="com.tcpdemo5" />
-      <recent name="com" />
     </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="H:\Github\Java\JavaSE2\Gather" />
-      <recent name="E:\Code\Java\JavaSE2\IO\src\com\bufferbytes" />
-      <recent name="E:\Code\Java\JavaSE2\IO\src\com\anli" />
-      <recent name="E:\documents\GitHub\Java\JavaSE2\IO" />
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.tcpdemo6" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -87,13 +104,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.StreamDemo_01">
-    <configuration name="StreamDemo_01" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="stream_02.StreamDemo_01" />
-      <module name="Stream" />
+  <component name="RunManager" selected="Application.ReflexText_02">
+    <configuration name="ReflectDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="reflex_04.ReflectDemo" />
+      <module name="Reflex" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="stream_02.*" />
+          <option name="PATTERN" value="reflex_04.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -101,12 +118,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StreamDemo_06" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="stream_01.StreamDemo_06" />
-      <module name="Stream" />
+    <configuration name="ReflexTest_01 (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="reflex_04.ReflexTest_01" />
+      <module name="Reflex" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="stream_01.*" />
+          <option name="PATTERN" value="reflex_04.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -114,12 +131,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StreamDemo_07" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="stream_01.StreamDemo_07" />
-      <module name="Stream" />
+    <configuration name="ReflexText_01 (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="reflex_05.ReflexText_01" />
+      <module name="Reflex" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="stream_01.*" />
+          <option name="PATTERN" value="reflex_05.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -127,12 +144,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StreamDemo_08" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="stream_01.StreamDemo_08" />
-      <module name="Stream" />
+    <configuration name="ReflexText_01" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="reflex_03.ReflexText_01" />
+      <module name="Reflex" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="stream_01.*" />
+          <option name="PATTERN" value="reflex_03.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -140,12 +157,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StreamTest_01" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="stream_02.StreamTest_01" />
-      <module name="Stream" />
+    <configuration name="ReflexText_02" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="reflex_05.ReflexText_02" />
+      <module name="Reflex" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="stream_02.*" />
+          <option name="PATTERN" value="reflex_05.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -154,19 +171,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.StreamDemo_06" />
-      <item itemvalue="Application.StreamDemo_07" />
-      <item itemvalue="Application.StreamDemo_08" />
-      <item itemvalue="Application.StreamTest_01" />
-      <item itemvalue="Application.StreamDemo_01" />
+      <item itemvalue="Application.ReflexText_01" />
+      <item itemvalue="Application.ReflectDemo" />
+      <item itemvalue="Application.ReflexTest_01 (1)" />
+      <item itemvalue="Application.ReflexText_01 (1)" />
+      <item itemvalue="Application.ReflexText_02" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.StreamDemo_01" />
-        <item itemvalue="Application.StreamTest_01" />
-        <item itemvalue="Application.StreamDemo_08" />
-        <item itemvalue="Application.StreamDemo_07" />
-        <item itemvalue="Application.StreamDemo_06" />
+        <item itemvalue="Application.ReflexText_02" />
+        <item itemvalue="Application.ReflexText_01 (1)" />
+        <item itemvalue="Application.ReflexTest_01 (1)" />
+        <item itemvalue="Application.ReflectDemo" />
+        <item itemvalue="Application.ReflexText_01" />
       </list>
     </recent_temporary>
   </component>
@@ -224,6 +241,7 @@
       <workItem from="1603843180913" duration="16624000" />
       <workItem from="1603929784188" duration="24106000" />
       <workItem from="1604017431983" duration="18028000" />
+      <workItem from="1604275388325" duration="16256000" />
     </task>
     <servers />
   </component>
