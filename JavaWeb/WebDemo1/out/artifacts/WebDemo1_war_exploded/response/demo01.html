@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="Refresh" content="5;url=/WebDemo1/response/demo02.html">
+    <title>demo01</title>
+    <script>
+        var i = 5;
+
+        function load() {
+            window.setInterval("changeSeconds()", 1000);
+        }
+
+        function changeSeconds() {
+            i--;
+            document.getElementById("span1").innerHTML = i;
+        }
+    </script>
+</head>
+<body onload="load()">
+<h1>demo01.html</h1>
+<h3>页面将在 <span id="span1">5</span> 秒后跳转到demo02.html</h3>
+</body>
+</html>
