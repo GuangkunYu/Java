@@ -46,6 +46,9 @@ public class CheckImgServlet extends HttpServlet {
         String words = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789";
         Random random = new Random();
 
+        // 定义一个StringBuffer
+        StringBuffer buffer = new StringBuffer();
+
         // 定义x坐标
         int x = 10;
         for (int i=0; i<4;i++){
@@ -61,12 +64,21 @@ public class CheckImgServlet extends HttpServlet {
             // 获得字母数字
             char c = words.charAt(index);
 
+            // 将随机产生的字符存入到字符串中
+            buffer.append(c);
+
             // 将c输出到图片
             graphics2D.rotate(theta, x, 20);
             graphics2D.drawString(String.valueOf(c), x, 20);
             graphics2D.rotate(-theta, x, 20);
             x += 30;
         }
+
+        // 将buffer转成字符串对象
+        String s = buffer.toString();
+
+        // 将其存入到session中
+        request.getSession().setAttribute("chechcode", s);
 
         // 5.绘制干扰线
         graphics.setColor(getRandColor(160, 200));
@@ -88,9 +100,9 @@ public class CheckImgServlet extends HttpServlet {
     }
 
     private Color getRandColor(int i, int i1) {
-        Random random = new Random();
-        int i2 = random.nextInt(50) + 200;
-        Color color = new Color(i2);
+//        Random random = new Random();
+//        int i2 = random.nextInt(50) + 200;
+        Color color = new Color(123, 123, 123);
         return color;
     }
 }

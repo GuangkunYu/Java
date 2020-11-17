@@ -2,6 +2,11 @@
 <html>
 <head>
     <title>登录</title>
+    <script>
+        function changeImg() {
+            document.getElementById("img1").src="/Login2/CheckImgServlet?time="+new Date().getTime();
+        }
+    </script>
 </head>
 <body>
 <h1>登录页面</h1>
@@ -28,7 +33,10 @@
         </tr>
         <tr>
             <td>验证码</td>
-            <td><input type="text" name="checkcode" size="6"><img src="/Login2/CheckImgServlet" alt="验证码"></td>
+            <td><input type="text" name="checkcode" size="6">
+                <img id="img1" src="/Login2/CheckImgServlet" alt="验证码">
+                <a href="#" onclick="changeImg()">看不清，换一张</a>
+            </td>
         </tr>
         <tr>
             <td><input type="checkbox" name="remember" value="true"></td>

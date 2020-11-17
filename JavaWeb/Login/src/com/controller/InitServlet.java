@@ -1,5 +1,6 @@
 package com.controller;
 
+import javax.servlet.ServletConfig;
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.HttpServlet;
@@ -11,7 +12,9 @@ import java.io.IOException;
 public class InitServlet extends HttpServlet {
     @Override
     // 初始化的方法,配置为启动时加载
-    public void init() throws ServletException {
+    public void init(ServletConfig config) throws ServletException {
+
+        super.init(config);
         // 初始一个值为0
         int count = 0;
         // 将这个值存入到servletcontext域中

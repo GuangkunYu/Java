@@ -52,7 +52,7 @@ public class LoginServlet extends HttpServlet {
             }
         }catch (Exception e){
             e.printStackTrace();
-            throw new RuntimeException();
+//            throw new RuntimeException();
         }
     }
 }
